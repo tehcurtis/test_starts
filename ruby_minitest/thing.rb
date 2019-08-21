@@ -1,5 +1,5 @@
 class Thing
   def run
-    true
+    true == true
   end
 end
