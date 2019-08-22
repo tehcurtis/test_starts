@@ -13,7 +13,6 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
-  ruby_minitest:
     - name: Run a multi-line script
       run: |
         cd ruby_minitest
